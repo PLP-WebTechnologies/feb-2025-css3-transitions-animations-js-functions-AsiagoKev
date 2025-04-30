@@ -1,0 +1,45 @@
+/* Soft minty background and general styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #d9fdf2; /* soft mint green */
+    color: #333;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styling with smooth transition */
+  button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Shake Animation */
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .animate {
+    animation: shake 0.5s;
+  }
+  
